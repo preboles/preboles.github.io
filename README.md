@@ -65,11 +65,11 @@ Lo que sigue, son ejemplos donde YO CLASIFICO el arrebol en base a lo que yo con
 <table>
   <tr>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/ObservacionDirecta/05_1.JPG" width="220"><br>
+      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/ObservacionDirecta/LasCampanas_SI.jpg" width="220"><br>
       <sub>Sí</sub>
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/ObservacionDirecta/IMG_0742.JPG" width="220"><br>
+      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/ObservacionDirecta/IMG_5091.JPG" width="220"><br>
       <sub>Sí</sub>
     </td>
     <td align="center">
@@ -80,7 +80,7 @@ Lo que sigue, son ejemplos donde YO CLASIFICO el arrebol en base a lo que yo con
 
   <tr>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/ObservacionDirecta/IMG_0625.JPG" width="220"><br>
+      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/ObservacionDirecta/05_1.JPG" width="220"><br>
       <sub>Más o menos</sub>
     </td>
     <td align="center">
@@ -88,7 +88,7 @@ Lo que sigue, son ejemplos donde YO CLASIFICO el arrebol en base a lo que yo con
       <sub>Más o menos</sub>
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/ObservacionDirecta/IMG_5091.JPG" width="220"><br>
+      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/ObservacionDirecta/IMG_0742.JPG" width="220"><br>
       <sub>Más o menos</sub>
     </td>
   </tr>
