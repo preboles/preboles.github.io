@@ -129,7 +129,7 @@ Lo que sigue, son ejemplos donde YO CLASIFICO el arrebol en base a lo que yo con
 
   <tr>
     <td align="center">
-      <img src=https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/CamarasEnVivo/Captura de pantalla de 2026-11-16 07-34-59.png" width="220"><br>
+      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/CamarasEnVivo/Captura%20de%20pantalla%20de%202026-11-16%2007-34-59.png" width="220"><br>
       <sub>Más o menos</sub>
     </td>
     <td align="center">
@@ -150,6 +150,44 @@ Lo que sigue, son ejemplos donde YO CLASIFICO el arrebol en base a lo que yo con
   </tr>
 </table>
 
+### `CamarasDeAerodromos/`
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/CamarasEnVivo/Captura%20de%20pantalla%20de%202026-11-16%2007-36-36.png" width="220"><br>
+      <sub>Sí</sub>
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/ObservacionDirecta/IMG_0742.JPG" width="220"><br>
+      <sub>Sí</sub>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/CamarasDeAeropuertos/20260904213505.jpg" width="220"><br>
+      <sub>Más o menos</sub>
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/CamarasDeAeropuertos/Captura%20de%20pantalla%20de%202026-11-12%2023-20-02.png" width="220"><br>
+      <sub>Más o menos</sub>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/ObservacionDirecta/IMG_0327.JPG" width="220"><br>
+      <sub>No</sub>
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/ObservacionDirecta/IMG_0519.JPG" width="220"><br>
+      <sub>No</sub>
+    </td>
+  </tr>
+</table>
+
+https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/CamarasDeAeropuertos/20260904213505.jpg
 
 | Archivo | Origen del nombre | Fecha (si se deduce del nombre) | Formato |
 |---|---|---|---|
