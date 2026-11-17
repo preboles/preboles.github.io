@@ -109,18 +109,22 @@ Lo que sigue, son ejemplos donde YO CLASIFICO el arrebol en base a lo que yo con
   </tr>
 </table>
 
-> **Nota:** Cuatro de las seis imágenes son capturas del 2026-11-12. 
+> **Nota:** . 
 
 ---
 
 ### `CamarasEnVivo/`
 
 <table>
-  <td align="center">
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/CamarasEnVivo/Valparaiso_si.jpg" width="320"><br>
+      <sub>Sí</sub>
+    </td>
+    <td align="center">
       <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/CamarasEnVivo/Pichilemu_28_07_2026.jpg" width="320"><br>
       <sub>Sí</sub>
     </td>
-  <tr>
     <td align="center">
       <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/CamarasEnVivo/Captura%20de%20pantalla%20de%202026-11-16%2007-36-36.png" width="320"><br>
       <sub>Sí</sub>
@@ -136,6 +140,10 @@ Lo que sigue, son ejemplos donde YO CLASIFICO el arrebol en base a lo que yo con
       <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/CamarasEnVivo/Quintero_masomenos.jpg" width="320"><br>
       <sub>Más o menos</sub>
     </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/CamarasEnVivo/SanAntonioNo.jpg" width="320"><br>
+      <sub>Más o menos</sub>
+    </td>
   </tr>
 
   <tr>
@@ -145,6 +153,10 @@ Lo que sigue, son ejemplos donde YO CLASIFICO el arrebol en base a lo que yo con
     </td>
     <td align="center">
       <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/CamarasEnVivo/Mejillones_21_09_2026_NO.jpg" width="320"><br>
+      <sub>No</sub>
+    </td>
+        <td align="center">
+      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/CamarasEnVivo/ALMA_28_09_2026_NO.jpg" width="320"><br>
       <sub>No</sub>
     </td>
   </tr>
