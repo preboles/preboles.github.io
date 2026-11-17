@@ -80,7 +80,7 @@ Lo que sigue, son ejemplos donde YO CLASIFICO el arrebol en base a lo que yo con
 
   <tr>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/ObservacionDirecta/20201005_195049.jpg" width="220"><br>
+      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/ObservacionDirecta/IMG_0625.JPG" width="220"><br>
       <sub>Más o menos</sub>
     </td>
     <td align="center">
@@ -103,7 +103,7 @@ Lo que sigue, son ejemplos donde YO CLASIFICO el arrebol en base a lo que yo con
       <sub>No</sub>
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/ObservacionDirecta/IMG_0625.JPG" width="220"><br>
+      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/ObservacionDirecta/20201005_195049.jpg" width="220"><br>
       <sub>No</sub>
     </td>
   </tr>
