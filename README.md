@@ -187,25 +187,7 @@ Lo que sigue, son ejemplos donde YO CLASIFICO el arrebol en base a lo que yo con
   </tr>
 </table>
 
-https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/CamarasDeAeropuertos/20260904213505.jpg
 
-| Archivo | Origen del nombre | Fecha (si se deduce del nombre) | Formato |
-|---|---|---|---|
-| `05_1.JPG` | Nombre manual | — | JPG |
-| `20201005_195049.jpg` | Marca de tiempo | 2020-10-05, 19:50:49 | jpg |
-| `IMG_0327.JPG` | Cámara (numeración correlativa) | — | JPG |
-| `IMG_0519.JPG` | Cámara (numeración correlativa) | — | JPG |
-| `IMG_0625.JPG` | Cámara (numeración correlativa) | — | JPG |
-| `IMG_0742.JPG` | Cámara (numeración correlativa) | — | JPG |
-| `IMG_1777.JPG` | Cámara (numeración correlativa) | — | JPG |
-| `IMG_20200829_231205_711.jpg` | Cámara de teléfono (marca de tiempo) | 2020-08-29, 23:12:05 (hora según el nombre) | jpg |
-| `IMG_4472.JPG` | Cámara (numeración correlativa) | — | JPG |
-| `IMG_5091.JPG` | Cámara (numeración correlativa) | — | JPG |
-| `IMG_7448.JPG` | Cámara (numeración correlativa) | — | JPG |
-| `IMG_8352.JPG` | Cámara (numeración correlativa) | — | JPG |
-| `IMG_8499.JPG` | Cámara (numeración correlativa) | — | JPG |
-| `IMG_8879.JPG` | Cámara (numeración correlativa) | — | JPG |
-| `IMG_8968.JPG` | Cámara (numeración correlativa) | — | JPG |
 
 
 ---
