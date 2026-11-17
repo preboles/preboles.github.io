@@ -21,7 +21,7 @@ La cual yo creo que es incompleta par definir el fenómeno por completo Creo que
 
 ## Criterios de clasificación
 
-Dado que el arrebol son ventanas en el día donde puede pasar, basta que el/la observador/a aviste **a lo menos una** coloración de nubes, con una intensidad dada, para considerar que hubo arrebol. 
+Dado que el arrebol son ventanas en el día donde puede pasar dicho fenómeno, basta que el/la observador/a aviste **a lo menos una** coloración de nubes **suficiente**, con una intensidad dada, para considerar que hubo arrebol. 
 Dicha la anterior premisa, es necesario considerar que el arrebol es un efecto bastante caótico, porque su aparición no solo depende de las condiciones metereológicas locales, sino que también de la geometría que poseen las nubes de camino a la dirección del sol. Por lo tanto, se considerarán los casos "simples" como una guía sobre cómo poder clasificar en tres escalas : 0,1,0.5
 
 | Campo | Descripción |
@@ -33,12 +33,20 @@ Dicha la anterior premisa, es necesario considerar que el arrebol es un efecto b
 ---
 ## Fuentes de información
 
-En la pandemia aprendí a leer las nubes. Basta sólo tener tiempo e interés, la verdad. Cualquiera puede hacerlo. Ayuda, sin embargo, estar en un lugar donde el clima sea, digamos, propicio para la ocurrencia de tal fenómeno físico. Ahí entonces estaba yo entonces, en Valparaíso, encerrado por la pandemia. Bastó un par de días para notar patrones en las nubes, bastaron un par de meses para que las primeras predicciones empezaran a cumplirse. 
+En la pandemia aprendí a leer las nubes. Basta sólo tener tiempo e interés, la verdad. Cualquiera puede hacerlo. Ayuda, sin embargo, estar en un lugar donde el clima sea, digamos, propicio para la ocurrencia de tal fenómeno físico, esa es la verdadera suerte. Ahí entonces estaba yo entonces, en Valparaíso, encerrado por la pandemia. Bastó un par de días para notar patrones en las nubes, bastaron un par de meses para que las primeras predicciones empezaran a cumplirse. 
 Y como varias personas observadores, jugamos a predecir el futuro en base a la experiencia: Las nubes tienen diferentes alturas, son diferentes estados del mismo gas, se mueven a diferentes velocidades, reflejan o dispersan la luz de forma diferente. Estos conocimientos naturales fueron utilizados para sacar a pasear a los perritos, ir a comprar pan, salir a tomar chela a la playa, o hacer fotografías. 
 
 Por cosas de la vida, me tocaba viajar por diferentes ciudades de Chile e iba registrando las fechas de las tardes en las que me encontraba con un arrebol. Cuando el concepto del **Modelo Local** apareció, fue preguntándome cuál sería la ciudad con más arreboles de Chile. 
 
-Ahí fue cuando supe la existencia de Open Meteo: hasta el 2025, sin duda sabía la existencia de grandes bases de datos metereológicos, pero no había ninguna configuración mental que requiriera de aquellos datos, ahora sí existía: Si yo podía predecir, podía entrenar un sistema básico para que lo hiciera por mi.
+Ahí fue cuando supe la existencia de Open Meteo: hasta el 2025, sin duda sabía la existencia de grandes bases de datos metereológicos, pero no había ninguna configuración mental personal que requiriera de aquellos datos, ahora sí existía: Si yo podía predecir, cláramente podría diseñar un sistema básico para que lo hiciera por mi, sin tener que estar en el lugar para hacer una predicción. 
+
+Con la primera versión de préboles, que ahora yo llamo el **modelo local** considebara que el arrebol sólo dependía de las nubes que estaban diréctamente por sobre nuestras cabezas, las cuales, dada la grílla de Open-Meteo, era una superficie alrededor de 100 km al cuadrado (11x11 km). Para mi, esto era suficiente. 
+
+Con los meses, fui monitoreando las predicciones en varias partes de Chile y con sorpresa veía que, muchas veces que yo decía que no habría (y el detector si) ocurría el arrebol. Como también, muchas veces terminaba mirando puestas de sol espectaculares, mientras el detector decía que la probabiliadad de ocurrencia tenía al 0%. Algo faltaba aún.
+
+Como faltaba información, me puse a recolectar posibles fuentes de datos. Ya no bastaba la expeciencia: era muy lenta (con suerte 2 mediciones por día) y dependia de la observación y amabilidad de otras personas para obtener tales observaciones. Así fue como di con una serie de cámaras que emiten en directo en diferentes puntos de chile. De norte a sur: Mejillones, Observatorio ALMA, Vallenar, La Serena, Valparaíso, Santiago, San Fernando, Concepción, Puerto Williams, Punta Arenas. Estas serán las que se llamarán las "Cámaras en vivo", y serán la gran fuente de información de este proyecto. Por otro lado, también es posible consultar las cámaras de los diferente aerodromos en Chile, los cuales van publicando fotos en intervalos regulares de una hora. Por lo tanto, estas cámaras se usan más para "confirmar" que hubo un arrebol, más que para "desconfirmar" (es decir, es mucho más probable clasificar un atardecer con un 1, que con un 0). Esto puede introducir sesgos. 
+
+Dicho lo anterior, las fuentes de información de Préboles son:
 
 1. Observación directa: Basada en la expertiz de la persona que reporta. También se considera en este grupo la obtención de una fotografía o archivos similares.
 2. Emisiones en vivo de cámaras públivas (digamos): Diversas personas mantienen emisiones en vivo de lo que sucede en diferentes puntos del país. Se ha escrito y diseñado un sistema basado en bash script que graba, recolecta y analiza estas transmisiones.
