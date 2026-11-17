@@ -118,7 +118,7 @@ Lo que sigue, son ejemplos donde YO CLASIFICO el arrebol en base a lo que yo con
 <table>
   <tr>
     <td align="center">
-      <img src="[https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/ObservacionDirecta/05_1.JPG](https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/CamarasEnVivo/Captura%20de%20pantalla%20de%202026-11-16%2007-36-36.png)" width="220"><br>
+      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/CamarasEnVivo/Captura%20de%20pantalla%20de%202026-11-16%2007-36-36.png" width="220"><br>
       <sub>Sí</sub>
     </td>
     <td align="center">
@@ -129,7 +129,7 @@ Lo que sigue, son ejemplos donde YO CLASIFICO el arrebol en base a lo que yo con
 
   <tr>
     <td align="center">
-      <img src="[https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/ObservacionDirecta/20201005_195049.jpg](https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/CamarasEnVivo/Captura de pantalla de 2026-11-16 07-34-59.png)" width="220"><br>
+      <img src=https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/CamarasEnVivo/Captura de pantalla de 2026-11-16 07-34-59.png" width="220"><br>
       <sub>Más o menos</sub>
     </td>
     <td align="center">
