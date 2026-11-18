@@ -47,9 +47,9 @@ IMAGEN DE CHILE CON LAS LOCALIZACION DE LAS CAMARAS
 
 Dicho lo anterior, las fuentes de información de Préboles son:
 
-1. Observación directa: Basada en la expertiz de la persona que reporta. También se considera en este grupo la obtención de una fotografía o archivos similares.
-2. Emisiones en vivo de cámaras públivas (digamos): Diversas personas mantienen emisiones en vivo de lo que sucede en diferentes puntos del país. Se ha escrito y diseñado un sistema basado en bash script que graba, recolecta y analiza estas transmisiones.
-3. Cámaras de Aeródromos: Al parecer, por normas aeronáuticas, en este tipo de lugares es necesario tener imágenes en vivo cada cierto tiempo, lo que lo hace una excelente fuente de información a lo largo de chile.   
+1. **Observación directa**: Basada en la expertiz de la persona que reporta. También se considera en este grupo la obtención de una fotografía o archivos similares.
+2. **Emisiones en vivo de cámaras públicas** (digamos): Diversas personas mantienen emisiones en vivo de lo que sucede en diferentes puntos del país. Se ha escrito y diseñado un sistema basado en bash script que graba, recolecta y analiza estas transmisiones.
+3. **Cámaras de Aeródromos**: Al parecer, por normas aeronáuticas, en este tipo de lugares es necesario tener imágenes en vivo cada cierto tiempo, lo que lo hace una excelente fuente de información a lo largo de chile.   
 
 Lamentáblemente no todo es bueno. Este sistema presenta debilidades estadísticas: los sesgos. Al ser el arrebol un fenómeno temporal, presenta por definición, variabilidad. Esto induce sesgos en los datos que son reportados. En principio, los sesgos tendrían que auto regularse al verse incrementada la muestra, pero es necesario tener en cuenta esto en las primeras etapas de este desarrollo. Es por esto que he creado la categoría de 0.5, dado que no estoy seguro si ocurrió o no. 
 
