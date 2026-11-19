@@ -73,6 +73,10 @@ Lo que sigue, son ejemplos donde YO CLASIFICO el arrebol en base a lo que yo con
       <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/ObservacionDirecta/IMG_1777.JPG" width="220"><br>
       <sub>Sí</sub>
     </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/ObservacionDirecta/IMG_20200829_231205_711.jpg" width="220"><br>
+      <sub>Sí</sub>
+    </td>
   </tr>
 
   <tr>
@@ -85,7 +89,11 @@ Lo que sigue, son ejemplos donde YO CLASIFICO el arrebol en base a lo que yo con
       <sub>Más o menos</sub>
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/ObservacionDirecta/IMG_0742.JPG" width="220"><br>
+      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/ObservacionDirecta/IMG_8879.JPG" width="220"><br>
+      <sub>Más o menos</sub>
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/ObservacionDirecta/20201005_195049.jpg" width="220"><br>
       <sub>Más o menos</sub>
     </td>
   </tr>
@@ -100,7 +108,11 @@ Lo que sigue, son ejemplos donde YO CLASIFICO el arrebol en base a lo que yo con
       <sub>No</sub>
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/ObservacionDirecta/20201005_195049.jpg" width="220"><br>
+      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/ObservacionDirecta/IMG_1393_NO.JPG" width="220"><br>
+      <sub>No</sub>
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/ObservacionDirecta/IMG_1509_No.JPG" width="220"><br>
       <sub>No</sub>
     </td>
   </tr>
@@ -159,39 +171,54 @@ Lo que sigue, son ejemplos donde YO CLASIFICO el arrebol en base a lo que yo con
   </tr>
 </table>
 
+---
+
 ### `CamarasDeAerodromos/`
 
 <table>
   <tr>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/CamarasEnVivo/Captura%20de%20pantalla%20de%202026-11-16%2007-36-36.png" width="220"><br>
+      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/CamarasDeAeropuertos/APEX_si.jpg" width="320"><br>
       <sub>Sí</sub>
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/ObservacionDirecta/IMG_0742.JPG" width="220"><br>
+      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/CamarasDeAeropuertos/Dalcahue_SI.jpg" width="320"><br>
+      <sub>Sí</sub>
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/CamarasDeAeropuertos/Si.jpg" width="320"><br>
       <sub>Sí</sub>
     </td>
   </tr>
 
   <tr>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/CamarasDeAeropuertos/20260904213505.jpg" width="220"><br>
+      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/CamarasDeAeropuertos/Palena_masomenos.jpg" width="320"><br>
       <sub>Más o menos</sub>
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/CamarasDeAeropuertos/Captura%20de%20pantalla%20de%202026-11-12%2023-20-02.png" width="220"><br>
+      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/CamarasDeAeropuertos/masomens.jpg" width="320"><br>
+      <sub>Más o menos</sub>
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/CamarasDeAeropuertos/Rodelillos_masomenos.jpg" width="320"><br>
       <sub>Más o menos</sub>
     </td>
   </tr>
+  
 
   <tr>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/ObservacionDirecta/IMG_0327.JPG" width="220"><br>
+      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/CamarasDeAeropuertos/SantoDomingo_no.jpg" width="320"><br>
       <sub>No</sub>
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/ObservacionDirecta/IMG_0519.JPG" width="220"><br>
+      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/CamarasDeAeropuertos/LaFlorida_no.jpg" width="320"><br>
       <sub>No</sub>
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/CamarasDeAeropuertos/AerodromoBalmaceda_niIdea.jpg" width="320"><br>
+      <sub>No (?) </sub>
     </td>
   </tr>
 </table>
