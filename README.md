@@ -2,7 +2,6 @@
 Repositorio de la app web Préboles
 
 ---
-## Clasificación y creación de una guía de referencia para clasificación de imágenes del arrebol
 
 En la pandemia del 2020 aprendí a leer las nubes. Basta con tener tiempo e interés, la verdad. Cualquiera puede hacerlo. Y en ese episodio, tuve tiempo de sobra para mirar el cielo, y no tan lejos esta vez. Ayuda, sin embargo, estar en un lugar donde el clima sea propicio para la ocurrencia de este fenómeno físico: esa es la verdadera suerte. Ahí estaba yo entonces, en Valparaíso, encerrado por la pandemia. Luego de generar un interés geniuno, bastó un part de diás para notar patrones en las nubes, y bastaron un par de meses para que las primeras predicciones empezaran a cumplirse de forma esporádica. 
 
@@ -20,16 +19,13 @@ Cuando apareció el concepto de **Modelo de predicción Local**, fue preguntánd
 
 ---
 
-## Criterios de clasificación
+Préboles: Predictor de arreboles
 
-Dado que el arrebol son ventanas en el día donde puede pasar dicho fenómeno, basta que el/la observador/a aviste **a lo menos una** coloración de nubes **suficiente**, con una intensidad dada, para considerar que hubo arrebol. 
-Dicha la anterior premisa, es necesario considerar que el arrebol es un **fenómeno caótico**, porque su aparición no solo depende de las condiciones metereológicas locales, sino que también de la geometría que poseen las nubes de camino a la dirección del sol. Por lo tanto, se considerarán los casos "simples" como una guía sobre cómo poder clasificar el fenómeno. Las escalas son las siguientes:
+¿Qué es?
 
-| Etiqueta | Significado | Criterio de clasificación |
-|---|---|---|
-| **1** | Sí hubo arrebol | El observador avista al menos una nube con coloración suficiente e intensidad clara, en la ventana del amanecer o atardecer |
-| **0.5** | Más o menos / dudoso | Hay indicios de coloración, pero no se está seguro de si constituye arrebol |
-| **0** | No hubo arrebol | No se observa coloración suficiente en las nubes durante la ventana correspondiente |
+¿Qué no es?
+
+
 
 ---
 
@@ -45,6 +41,8 @@ Como faltaba información, me puse a recolectar posibles fuentes de datos. Ya no
 
 IMAGEN DE CHILE CON LAS LOCALIZACION DE LAS CAMARAS
 
+<img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/chile_camaras_aerodromos.jpg" alt="Mapa de cámaras en Chile" width="220">
+
 Dicho lo anterior, las fuentes de información de Préboles son:
 
 1. **Observación directa**: Basada en la expertiz de la persona que reporta. También se considera en este grupo la obtención de una fotografía o archivos similares.
@@ -52,6 +50,19 @@ Dicho lo anterior, las fuentes de información de Préboles son:
 3. **Cámaras de Aeródromos**: Al parecer, por normas aeronáuticas, en este tipo de lugares es necesario tener imágenes en vivo cada cierto tiempo, lo que lo hace una excelente fuente de información a lo largo de chile.   
 
 Lamentáblemente no todo es bueno. Este sistema presenta debilidades estadísticas: los sesgos. Al ser el arrebol un fenómeno temporal, presenta por definición, variabilidad. Esto induce sesgos en los datos que son reportados. En principio, los sesgos tendrían que auto regularse al verse incrementada la muestra, pero es necesario tener en cuenta esto en las primeras etapas de este desarrollo. Es por esto que he creado la categoría de 0.5, dado que no estoy seguro si ocurrió o no. 
+
+---
+
+## Clasificación y creación de una guía de referencia para clasificación de imágenes del arrebol
+
+Dado que el arrebol son ventanas en el día donde puede pasar dicho fenómeno, basta que el/la observador/a aviste **a lo menos una** coloración de nubes **suficiente**, con una intensidad dada, para considerar que hubo arrebol. 
+Dicha la anterior premisa, es necesario considerar que el arrebol es un **fenómeno caótico**, porque su aparición no solo depende de las condiciones metereológicas locales, sino que también de la geometría que poseen las nubes de camino a la dirección del sol. Por lo tanto, se considerarán los casos "simples" como una guía sobre cómo poder clasificar el fenómeno. Las escalas son las siguientes:
+
+| Etiqueta | Significado | Criterio de clasificación |
+|---|---|---|
+| **1** | Sí hubo arrebol | El observador avista al menos una nube con coloración suficiente e intensidad clara, en la ventana del amanecer o atardecer |
+| **0.5** | Más o menos / dudoso | Hay indicios de coloración, pero no se está seguro de si constituye arrebol |
+| **0** | No hubo arrebol | No se observa coloración suficiente en las nubes durante la ventana correspondiente |
 
 ---
 
@@ -124,6 +135,25 @@ Lo que sigue, son ejemplos donde YO CLASIFICO el arrebol en base a lo que yo con
 
 ### `CamarasEnVivo/`
 
+#Ciudad,		LinkYoutube					Canal						
+ALMA,			https://www.youtube.com/watch?v=BVKRAzTSnB0,	https://www.youtube.com/@astroasahi           
+Mejillones, 		https://www.youtube.com/watch?v=4_AXWX4aAnM,	https://www.youtube.com/@MarejadasUV
+Vallenar,	 	https://www.youtube.com/watch?v=145NS0R_Pxk,	https://www.youtube.com/@envivoimvallenar
+LaSerena,	 	https://www.youtube.com/watch?v=TnYMjA-tQx8,	https://www.youtube.com/@LaSerenaDrone
+RapaNui,		https://www.youtube.com/watch?v=qnz08E9WjSY,	https://www.youtube.com/@MarejadasUV
+Valparaiso,	 	https://www.youtube.com/watch?v=5jPpMkg5daM,	https://www.youtube.com/@Manupuntocl
+Santiago,	 	https://www.youtube.com/watch?v=_Nrt155MExU,	https://www.youtube.com/@SCLSkylineLive
+SanAntonio,		https://www.youtube.com/watch?v=F52WEYBHtb8,	https://www.youtube.com/@sanantonioimagen
+Puerto_SanAntonio,	https://www.youtube.com/watch?v=pobB4JkToSo,	https://www.youtube.com/@sanantonioimagen
+ElQuisco, 		https://www.youtube.com/watch?v=yFr77Tpcvrg,	https://www.youtube.com/@sanantonioimagen
+SanFernando, 		https://www.youtube.com/watch?v=C4QzY1yPONA,	https://www.youtube.com/@bombatercera
+Pichilemu, 		https://www.youtube.com/watch?v=HO-1ar9pmYc,	https://www.youtube.com/@MarejadasUV
+Curico, 		https://www.youtube.com/watch?v=_ihQvfX65TY,	https://www.youtube.com/@vlnradio
+Concepcion, 		https://www.youtube.com/watch?v=RhdmP5017VM,	https://www.youtube.com/@concecam
+PuertoWilliams, 	https://www.youtube.com/watch?v=g5fsS8ynRAU,	https://www.youtube.com/@marcelogr250
+PuntaArenas, 		https://www.youtube.com/watch?v=tz8xb2TMjfQ,  https://www.youtube.com/@ExploraAustralis
+
+
 <table>
   <tr>
     <td align="center">
@@ -174,6 +204,8 @@ Lo que sigue, son ejemplos donde YO CLASIFICO el arrebol en base a lo que yo con
 ---
 
 ### `CamarasDeAerodromos/`
+
+https://aipchile.dgac.gob.cl/camara/
 
 <table>
   <tr>
