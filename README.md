@@ -135,23 +135,24 @@ Lo que sigue, son ejemplos donde YO CLASIFICO el arrebol en base a lo que yo con
 
 ### `CamarasEnVivo/`
 
-#Ciudad,		LinkYoutube					Canal						
-ALMA,			https://www.youtube.com/watch?v=BVKRAzTSnB0,	https://www.youtube.com/@astroasahi           
-Mejillones, 		https://www.youtube.com/watch?v=4_AXWX4aAnM,	https://www.youtube.com/@MarejadasUV
-Vallenar,	 	https://www.youtube.com/watch?v=145NS0R_Pxk,	https://www.youtube.com/@envivoimvallenar
-LaSerena,	 	https://www.youtube.com/watch?v=TnYMjA-tQx8,	https://www.youtube.com/@LaSerenaDrone
-RapaNui,		https://www.youtube.com/watch?v=qnz08E9WjSY,	https://www.youtube.com/@MarejadasUV
-Valparaiso,	 	https://www.youtube.com/watch?v=5jPpMkg5daM,	https://www.youtube.com/@Manupuntocl
-Santiago,	 	https://www.youtube.com/watch?v=_Nrt155MExU,	https://www.youtube.com/@SCLSkylineLive
-SanAntonio,		https://www.youtube.com/watch?v=F52WEYBHtb8,	https://www.youtube.com/@sanantonioimagen
-Puerto_SanAntonio,	https://www.youtube.com/watch?v=pobB4JkToSo,	https://www.youtube.com/@sanantonioimagen
-ElQuisco, 		https://www.youtube.com/watch?v=yFr77Tpcvrg,	https://www.youtube.com/@sanantonioimagen
-SanFernando, 		https://www.youtube.com/watch?v=C4QzY1yPONA,	https://www.youtube.com/@bombatercera
-Pichilemu, 		https://www.youtube.com/watch?v=HO-1ar9pmYc,	https://www.youtube.com/@MarejadasUV
-Curico, 		https://www.youtube.com/watch?v=_ihQvfX65TY,	https://www.youtube.com/@vlnradio
-Concepcion, 		https://www.youtube.com/watch?v=RhdmP5017VM,	https://www.youtube.com/@concecam
-PuertoWilliams, 	https://www.youtube.com/watch?v=g5fsS8ynRAU,	https://www.youtube.com/@marcelogr250
-PuntaArenas, 		https://www.youtube.com/watch?v=tz8xb2TMjfQ,  https://www.youtube.com/@ExploraAustralis
+| # | Ciudad | Canal Youtube|
+|---|--------|-------|
+| 1 | Rapa Nui | [@MarejadasUV](https://www.youtube.com/@MarejadasUV) |
+| 2 | ALMA | [@astroasahi](https://www.youtube.com/@astroasahi) |
+| 3 | Mejillones | [@MarejadasUV](https://www.youtube.com/@MarejadasUV) |
+| 4 | Vallenar | [@envivoimvallenar](https://www.youtube.com/@envivoimvallenar) |
+| 5 | La Serena | [@LaSerenaDrone](https://www.youtube.com/@LaSerenaDrone) |
+| 6 | Valparaíso | [@Manupuntocl](https://www.youtube.com/@Manupuntocl) |
+| 7 | Santiago | [@SCLSkylineLive](https://www.youtube.com/@SCLSkylineLive) |
+| 8 | San Antonio | [@sanantonioimagen](https://www.youtube.com/@sanantonioimagen) |
+| 9 | Puerto San Antonio | [@sanantonioimagen](https://www.youtube.com/@sanantonioimagen) |
+| 10 | El Quisco | [@sanantonioimagen](https://www.youtube.com/@sanantonioimagen) |
+| 11 | San Fernando | [@bombatercera](https://www.youtube.com/@bombatercera) |
+| 12 | Pichilemu | [@MarejadasUV](https://www.youtube.com/@MarejadasUV) |
+| 13 | Curicó | [@vlnradio](https://www.youtube.com/@vlnradio) |
+| 14 | Concepción | [@concecam](https://www.youtube.com/@concecam) |
+| 15 | Punta Arenas | [@ExploraAustralis](https://www.youtube.com/@ExploraAustralis) |
+| 16 | Puerto Williams | [@marcelogr250](https://www.youtube.com/@marcelogr250) |
 
 
 <table>
