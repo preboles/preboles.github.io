@@ -3,13 +3,30 @@
 Préboles: Predictor de arreboles
 
 <img src="https://raw.githubusercontent.com/nicomedinap/nicomedinap.github.io/refs/heads/master/imagenes/preboles.png" alt="Description" width="330" height="200" >
+
 ---
+
 En la pandemia del 2020 aprendí a leer las nubes. Basta con tener tiempo e interés, la verdad. Cualquiera puede hacerlo. Y en ese episodio, tuve tiempo de sobra para mirar el cielo, y no tan lejos esta vez. Ayuda, sin embargo, estar en un lugar donde el clima sea propicio para la ocurrencia de este fenómeno físico: esa es la verdadera suerte. Ahí estaba yo entonces, en Valparaíso, encerrado por la pandemia. Luego de generar un interés geniuno, bastó un par de diás para notar patrones en las nubes, y bastaron un par de meses para que las primeras predicciones empezaran a cumplirse de forma esporádica. 
 
-Como varios observadores, jugábamos a predecir el futuro en base a la experiencia: las nubes tienen diferentes alturas, son diferentes estados del mismo gas, se mueven a diferentes velocidades, reflejan o dispersan la luz de forma diferente. Estos conocimientos naturales fueron utilizados, en ese entonces, para salir pasear, hacer fotografías o a tomar chela en los roqueríos de la playa, las cuales eran mi procupaciones del momento.
+Como varios observadores, jugábamos a predecir el futuro en base a la experiencia: las nubes tienen diferentes alturas, son diferentes estados del mismo gas, se mueven a diferentes velocidades, reflejan o dispersan la luz de forma diferente. Estos conocimientos naturales fueron utilizados, en ese entonces, para salir pasear, hacer fotografías o a tomar chela en los roqueríos de la playa, las cuales eran mi procupaciones del momento. Pasaron varios años para darme cuenta que, si yo pude desarrollar un método para predecir con cierto éxito, cláramente podría diseñar un sistema básico para que lo hiciera por mi, sin tener que estar en el lugar para hacer una predicción. 
+
+Así nació Preboles: Predictor de arreboles. Más evidencia aún de que el ocio es fundamental para nuestras vidas.
+
+Entonces, de eso tratará el siguiente artículo. Podemos ordenarlo de la siguiente forma:
+1. **Qué calcula el modelo**, y qué no.
+2. **Los datos:** el perfil meteorológico.
+3. **Hacia dónde mirar:** el perfil sobre el acimut del Sol.
+4. **El escenario:** capas de nubes, topografía y curvatura de la Tierra.
+5. **El Sol:** su dirección y su tamaño.
+6. **Los rayos:** refracción y bloqueo por el terreno.
+7. **Lo que pierde la luz en el camino:** nubes y atmósfera.
+8. **Lo que aporta cada nube:** emisión, dispersión, filtro de color y contribución de cada celda.
+9. **Sumar sobre los ángulos de visión.**
+10. **De la intensidad al índice $Q$.**
+11. **Un arrebol es un episodio:** $Q(\alpha)$.
+12. **Modelo local y modelo óptico**, o cómo usar la diferencia como diagnóstico.
 
 ---
-
 
 La palabra arrebol proviene del latín rubor ("enrojecimiento" o "rojez") o rubeus ("rojizo"), a través de formas relacionadas con el enrojecimiento. La RAE lo define de la siguiente forma:
 
@@ -17,7 +34,9 @@ La palabra arrebol proviene del latín rubor ("enrojecimiento" o "rojez") o rube
 
 Aún así, yo creo que esta definicion es insuficiente o incompleta para poder hablar o describir el conjunto de fenómenos físicos que ocurren en el Arrebol. Es necesario observar y recolectar información de forma sistemática para su real caracterización cuando el arrebol ocurre. 
 
-El modelo óptico de Préboles intenta estimar qué tan favorables son las condiciones para observar un arrebol al amanecer o al atardecer. La diferencia con mi primer modelo, al que llamo el modelo **local** $P_{\rm local}$, es que ya no evalúo únicamente la nubosidad del lugar donde está el observador. Ahora intento representar la ruta de la luz:
+¿Qué es Préboles?
+
+Préboles es una aplicación web estima qué tan favorables son las condiciones climatológicas para observar un arrebol al amanecer o al atardecer. La diferencia con mi primer modelo, al que llamo el modelo **local** $P_{\rm local}$, es que ya no evalúo únicamente la nubosidad del lugar donde está el observador. Ahora intento representar la ruta de la luz:
 
 $$ \text{Sol}\longrightarrow\text{atmósfera}\longrightarrow \text{nube}\longrightarrow\text{atmósfera}\longrightarrow\text{observador} $$
 
@@ -34,7 +53,9 @@ El resultado se construye sumando las contribuciones de las celdas nubosas a lo 
 
 Pero un arrebol no es un instante, es una ventana. Por eso al final opero sobre todo el intervalo: sumo las intensidades $\Delta I$ de los rayos para cada elevación solar $\alpha_i$ y construyo un estadístico que indique si se dieron las condiciones físicas para que ocurriera el arrebol (un 1) o no se dieron, o no ocurrió (un 0). Ese número lo llamo el **índice** $Q(\alpha)$, por ninguna razón particular: la $Q$ viene después de la $P$.
 
+---
 
+Evolución del concepto
 
 ---
 
