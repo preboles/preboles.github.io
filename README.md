@@ -1,25 +1,21 @@
 # preboles.github.io
-Repositorio de la app web Préboles
+
+Préboles: Predictor de arreboles
+
+<img src="https://raw.githubusercontent.com/nicomedinap/nicomedinap.github.io/refs/heads/master/imagenes/preboles.png" alt="Description" width="330" height="200" >
+---
+En la pandemia del 2020 aprendí a leer las nubes. Basta con tener tiempo e interés, la verdad. Cualquiera puede hacerlo. Y en ese episodio, tuve tiempo de sobra para mirar el cielo, y no tan lejos esta vez. Ayuda, sin embargo, estar en un lugar donde el clima sea propicio para la ocurrencia de este fenómeno físico: esa es la verdadera suerte. Ahí estaba yo entonces, en Valparaíso, encerrado por la pandemia. Luego de generar un interés geniuno, bastó un par de diás para notar patrones en las nubes, y bastaron un par de meses para que las primeras predicciones empezaran a cumplirse de forma esporádica. 
+
+Como varios observadores, jugábamos a predecir el futuro en base a la experiencia: las nubes tienen diferentes alturas, son diferentes estados del mismo gas, se mueven a diferentes velocidades, reflejan o dispersan la luz de forma diferente. Estos conocimientos naturales fueron utilizados, en ese entonces, para salir pasear, hacer fotografías o a tomar chela en los roqueríos de la playa, las cuales eran mi procupaciones del momento.
 
 ---
 
-En la pandemia del 2020 aprendí a leer las nubes. Basta con tener tiempo e interés, la verdad. Cualquiera puede hacerlo. Y en ese episodio, tuve tiempo de sobra para mirar el cielo, y no tan lejos esta vez. Ayuda, sin embargo, estar en un lugar donde el clima sea propicio para la ocurrencia de este fenómeno físico: esa es la verdadera suerte. Ahí estaba yo entonces, en Valparaíso, encerrado por la pandemia. Luego de generar un interés geniuno, bastó un part de diás para notar patrones en las nubes, y bastaron un par de meses para que las primeras predicciones empezaran a cumplirse de forma esporádica. 
-
-Como varios observadores, jugábamos a predecir el futuro en base a la experiencia: las nubes tienen diferentes alturas, son diferentes estados del mismo gas, se mueven a diferentes velocidades, reflejan o dispersan la luz de forma diferente. Estos conocimientos naturales fueron utilizados, en ese entonces, para salir pasear, hacer fotografías o a tomar chela a la playa (eran mis preocupaciones)
 
 La palabra arrebol proviene del latín rubor ("enrojecimiento" o "rojez") o rubeus ("rojizo"), a través de formas relacionadas con el enrojecimiento. La RAE lo define de la siguiente forma:
 
 > Arrebol: De arrebolar. Color rojo, especialmente el de las nubes iluminadas por los rayos del sol o el del rostro.
 
 Aún así, yo creo que esta definicion es insuficiente o incompleta para poder hablar o describir el conjunto de fenómenos físicos que ocurren en el Arrebol. Es necesario observar y recolectar información de forma sistemática para su real caracterización cuando el arrebol ocurre. 
-
-En un principio, constaba sólo de mi observación a través de diferentes ciudades. Por cosas de la vida, me tocaba viajar por diferentes ciudades de Chile e iba registrando las fechas de las tardes en las que me encontraba con un arrebol. Con el paso del tiempo, empecé a considerar la observación de cámaras en vivo que emiten a lo largo de Chile, y con eso sistematizar la recolección de información.
-
-Cuando apareció el concepto de **Modelo de predicción Local**, fue preguntándome cuál sería la ciudad con más arreboles de Chile. La incorporación de registros audiovisuales pueden aportar información crítica, y su automatización, en estos tiempo, no es sólo posible, sino que necesaria.
-
----
-
-Préboles: Predictor de arreboles
 
 El modelo óptico de Préboles intenta estimar qué tan favorables son las condiciones para observar un arrebol al amanecer o al atardecer. La diferencia con mi primer modelo, al que llamo el modelo **local** $P_{\rm local}$, es que ya no evalúo únicamente la nubosidad del lugar donde está el observador. Ahora intento representar la ruta de la luz:
 
@@ -43,6 +39,10 @@ Pero un arrebol no es un instante, es una ventana. Por eso al final opero sobre 
 ---
 
 ## Fuentes de información
+
+En un principio, constaba sólo de mi observación a través de diferentes ciudades. Por cosas de la vida, me tocaba viajar por diferentes ciudades de Chile e iba registrando las fechas de las tardes en las que me encontraba con un arrebol. Con el paso del tiempo, empecé a considerar la observación de cámaras en vivo que emiten a lo largo de Chile, y con eso sistematizar la recolección de información.
+
+Cuando apareció el concepto de **Modelo de predicción Local**, fue preguntándome cuál sería la ciudad con más arreboles de Chile. La incorporación de registros audiovisuales pueden aportar información crítica, y su automatización, en estos tiempo, no es sólo posible, sino que necesaria. Cuando el modelo óptico 
 
 Open-Meteo es, por excelencia, la fuente principal de datos metereológicos, que se pueden consultar de forma gratuita. Hasta el 2025, sin duda sabía la existencia de grandes bases de datos metereológicos, pero no había ninguna configuración mental personal que requiriera de aquellos datos. En ese momento, me di cuenta que si yo pude desarrollar un método para predecir con cierto éxito, cláramente podría diseñar un sistema básico para que lo hiciera por mi, sin tener que estar en el lugar para hacer una predicción. 
 
