@@ -21,9 +21,22 @@ Cuando apareció el concepto de **Modelo de predicción Local**, fue preguntánd
 
 Préboles: Predictor de arreboles
 
-¿Qué es?
+El modelo óptico de Préboles intenta estimar qué tan favorables son las condiciones para observar un arrebol al amanecer o al atardecer. La diferencia con mi primer modelo, al que llamo el modelo **local** $P_{\rm local}$, es que ya no evalúo únicamente la nubosidad del lugar donde está el observador. Ahora intento representar la ruta de la luz:
 
-¿Qué no es?
+$$ \text{Sol}\longrightarrow\text{atmósfera}\longrightarrow \text{nube}\longrightarrow\text{atmósfera}\longrightarrow\text{observador} $$
+
+Según las aproximaciones del modelo, una nube contribuye al resultado si:
+
+1. existe nubosidad en su posición y altura;
+2. recibe iluminación solar;
+3. la geometría Sol–nube–observador favorece la interacción óptica adoptada;
+4. la luz puede llegar a la nube y salir de ella sin una atenuación excesiva;
+5. el terreno y las nubes interpuestas no bloquean el trayecto;
+6. su contribución es significativa para alguno de los ángulos de visión evaluados.
+
+El resultado se construye sumando las contribuciones de las celdas nubosas a lo largo de rayos de observación, para una elevación solar dada. A ese estadístico lo llamo el **modelo óptico** $P_{\rm óptico}$, y existe uno para cada valor de elevación solar $\alpha_i$.
+
+Pero un arrebol no es un instante, es una ventana. Por eso al final opero sobre todo el intervalo: sumo las intensidades $\Delta I$ de los rayos para cada elevación solar $\alpha_i$ y construyo un estadístico que indique si se dieron las condiciones físicas para que ocurriera el arrebol (un 1) o no se dieron, o no ocurrió (un 0). Ese número lo llamo el **índice** $Q(\alpha)$, por ninguna razón particular: la $Q$ viene después de la $P$.
 
 
 
