@@ -2,39 +2,87 @@
 
 Préboles: Predictor de arreboles
 
-<img src="https://raw.githubusercontent.com/nicomedinap/nicomedinap.github.io/refs/heads/master/imagenes/preboles.png" alt="Description" width="330" height="200" >
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nicomedinap/nicomedinap.github.io/refs/heads/master/imagenes/preboles.png" alt="Description" width="350" height="200" >
+</p>
+
+Préboles es un visualizador de información meteorológico que estima, mediante un modelo físico semiempírico, qué tan favorables son las condiciones para un arrebol al amanecer o al atardecer, considerando el camino óptico de la luz desde el Sol hasta el observador.
+
+Prueba un demo del **modelo Local** en el siguiente link: [preboles.github.io](https://preboles.github.io){:target="_blank"}
+
+Si quieres saber más, la documentación sigue:
 
 ---
 
-En la pandemia del 2020 aprendí a leer las nubes. Basta con tener tiempo e interés, la verdad. Cualquiera puede hacerlo. Y en ese episodio, tuve tiempo de sobra para mirar el cielo, y no tan lejos esta vez. Ayuda, sin embargo, estar en un lugar donde el clima sea propicio para la ocurrencia de este fenómeno físico: esa es la verdadera suerte. Ahí estaba yo entonces, en Valparaíso, encerrado por la pandemia. Luego de generar un interés geniuno, bastó un par de diás para notar patrones en las nubes, y bastaron un par de meses para que las primeras predicciones empezaran a cumplirse de forma esporádica. 
+### Índice
 
-Como varios observadores, jugábamos a predecir el futuro en base a la experiencia: las nubes tienen diferentes alturas, son diferentes estados del mismo gas, se mueven a diferentes velocidades, reflejan o dispersan la luz de forma diferente. Estos conocimientos naturales fueron utilizados, en ese entonces, para salir pasear, hacer fotografías o a tomar chela en los roqueríos de la playa, las cuales eran mi procupaciones del momento. Pasaron varios años para darme cuenta que, si yo pude desarrollar un método para predecir con cierto éxito, cláramente podría diseñar un sistema básico para que lo hiciera por mi, sin tener que estar en el lugar para hacer una predicción. 
+0. **[Introducción](#0-introducción)**
+   - [0.1 ¿Qué es el arrebol?](#01-qué-es-el-arrebol)
+   - [0.2 Características de Préboles](#02-qué-calcula-el-modelo-y-qué-no)
+   - [0.3 ¿Para qué podría servir?](#03-la-eterna-pregunta-para-qué-podría-servir)
+
+1. **[Visualizador de datos](#1-visualizador-de-datos)**
+   - [1.1 El perfil meteorológico](#11-los-datos-el-perfil-meteorológico)
+   - [1.2 ]
+   - [1.3 El acimut solar](#13-el-acimut-solar)
+   - [1.4 Capas, topografía y curvatura](#14-capas-de-nubes-topografía-y-curvatura-de-la-tierra)
+2. **[Modelo óptico](#2-modelo-óptico)**
+   - [2.1 Rayos: refracción y bloqueo](#21-los-rayos-refracción-y-bloqueo-por-el-terreno)
+   - [2.2 Pérdidas: nubes y atmósfera](#22-lo-que-pierde-la-luz-en-el-camino-nubes-y-atmósfera)
+   - [2.3 Aporte de cada nube](#23-lo-que-aporta-cada-nube-emisión-dispersión-filtro-de-color-y-contribución-de-cada-celda)
+   - [2.4 Suma angular](#24-sumar-sobre-los-ángulos-de-visión)
+   - [2.5 Índice Q](#25-de-la-intensidad-al-índice-q)
+   - [2.6 Color rojo](#26-mirando-el-color-rojo)
+3. **[Clasificación](#3-clasificación)**
+   - [3.1 Episodio Q(α)](#31-un-arrebol-es-un-episodio-qα)
+   - [3.2 Local vs. óptico](#32-modelo-local-y-modelo-óptico-o-cómo-usar-la-diferencia-como-diagnóstico)
+4. **[Oportunidad pedagógica]**
+   - [4.1 Escala de tiempo del fenómieno]()
+   - [4.2 Visualizando la física]
+   - [4.3 Las implicancias de las predicciones: pensamiento crítico]
+---
+
+## 0. Introducción
+
+En la pandemia del 2020 aprendí a leer las nubes. Basta con tener tiempo e interés, la verdad. Cualquiera puede hacerlo. Y en ese episodio, tuve tiempo de sobra para mirar el cielo, y no tan lejos esta vez. Ayuda, sin embargo, estar en un lugar donde el clima sea propicio para la ocurrencia de este fenómeno físico: esa es la verdadera suerte. Ahí estaba yo entonces, en Valparaíso, encerrado por la pandemia. Luego de generar un interés genuino en la naturaleza, bastó un par de días para notar patrones en las nubes, y bastaron un par de meses para que las primeras predicciones empezaran a cumplirse de forma esporádica. 
+
+Como muchas personas observadoras, jugamos a predecir el futuro en base a la experiencia: las nubes tienen diferentes alturas, son diferentes estados del mismo gas, se mueven a diferentes velocidades, reflejan o dispersan la luz de forma diferente, y por las mismas razones se colorean diferente ante la luz del ocaso. Éstos son indicadores claros de procesos físicos. 
+Estos conocimientos naturales fueron utilizados, en ese entonces, para salir pasear, hacer fotografías o a tomar chela en la playa, las cuales eran mi preocupaciones de ese entonces. Pasaron varios años para darme cuenta que, si yo pude desarrollar un método para predecir con cierto éxito, claramente podría diseñar un sistema básico para que lo hiciera por mi, sin tener que estar en el lugar para hacer una predicción. 
 
 Así nació Preboles: Predictor de arreboles. Más evidencia aún de que el ocio es fundamental para nuestras vidas.
 
-Entonces, de eso tratará el siguiente artículo. Podemos ordenarlo de la siguiente forma:
-1. **Qué calcula el modelo**, y qué no.
-2. **Los datos:** el perfil meteorológico.
-3. **Hacia dónde mirar:** el perfil sobre el acimut del Sol.
-4. **El escenario:** capas de nubes, topografía y curvatura de la Tierra.
-5. **El Sol:** su dirección y su tamaño.
-6. **Los rayos:** refracción y bloqueo por el terreno.
-7. **Lo que pierde la luz en el camino:** nubes y atmósfera.
-8. **Lo que aporta cada nube:** emisión, dispersión, filtro de color y contribución de cada celda.
-9. **Sumar sobre los ángulos de visión.**
-10. **De la intensidad al índice $Q$.**
-11. **Un arrebol es un episodio:** $Q(\alpha)$.
-12. **Modelo local y modelo óptico**, o cómo usar la diferencia como diagnóstico.
-
 ---
 
-La palabra arrebol proviene del latín rubor ("enrojecimiento" o "rojez") o rubeus ("rojizo"), a través de formas relacionadas con el enrojecimiento. La RAE lo define de la siguiente forma:
+## 0.1 ¿Qué es el arrebol?
+
+El arrebol ocurre cuando la luz roja del sol interactúa con las nubes, pintandolas de una paleta de colores 
+
+
+La palabra arrebol proviene del latín rubor ("enrojecimiento" o "rojez") o rubeus ("rojizo"), a través de formas relacionadas con el enrojecimiento. La RAE (https://dle.rae.es/arrebol) lo define de la siguiente forma:
 
 > Arrebol: De arrebolar. Color rojo, especialmente el de las nubes iluminadas por los rayos del sol o el del rostro.
 
-Aún así, yo creo que esta definicion es insuficiente o incompleta para poder hablar o describir el conjunto de fenómenos físicos que ocurren en el Arrebol. Es necesario observar y recolectar información de forma sistemática para su real caracterización cuando el arrebol ocurre. 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/Preboles1.jpg" alt="Preboles 1" width="40%" >
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nicomedinap/preboles.github.io/refs/heads/main/Documentacion/Clasificacion/Preboles2.jpg" alt="Preboles 2" width="40%" >
+</p>
 
-¿Qué es Préboles?
+Sin duda una definición que sólo habla sobre las nubes rojas, de aquellas 
+
+<details>
+<summary>🧮 Demostración de cálculos (clic para expandir)</summary>
+
+
+👉 [Ver demo interactiva](https://nicomedinap.github.io/preboles.github.io/)
+
+</details>
+
+
+Aún así, yo creo que esta definición es insuficiente o incompleta para poder hablar o describir el conjunto de fenómenos físicos que ocurren en el Arrebol. Es necesario observar y recolectar información de forma sistemática para su real caracterización cuando el arrebol ocurre. 
+
+## 0.2 Características de Préboles
 
 Préboles es una aplicación web estima qué tan favorables son las condiciones climatológicas para observar un arrebol al amanecer o al atardecer. La diferencia con mi primer modelo, al que llamo el modelo **local** $P_{\rm local}$, es que ya no evalúo únicamente la nubosidad del lugar donde está el observador. Ahora intento representar la ruta de la luz:
 
